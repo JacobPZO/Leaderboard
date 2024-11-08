@@ -1705,7 +1705,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 710999808}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1009166381}
+        m_TargetAssemblyTypeName: Leaderboard, Assembly-CSharp
+        m_MethodName: DisplayLeaderboard
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &710999808
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2462,7 +2474,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1009166380
 Transform:
   m_ObjectHideFlags: 0
@@ -2492,7 +2504,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   leaderboardCanvas: {fileID: 1531336604}
-  leaderboardEntries: []
+  leaderboardEntries:
+  - {fileID: 1941485406}
+  - {fileID: 1602454735}
+  - {fileID: 1262209398}
+  - {fileID: 1943042857}
+  - {fileID: 1745275038}
+  - {fileID: 1345833575}
+  - {fileID: 270844760}
+  - {fileID: 1544436986}
+  - {fileID: 985574069}
+  - {fileID: 763603281}
 --- !u!1 &1029751882
 GameObject:
   m_ObjectHideFlags: 0
@@ -4051,7 +4073,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1531336605
 RectTransform:
   m_ObjectHideFlags: 0

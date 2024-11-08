@@ -15,6 +15,7 @@ public class Leaderboard : MonoBehaviour
 
     public void OnLoggedIn()
     {
+        Debug.Log("got here");
         leaderboardCanvas.SetActive(true);
         DisplayLeaderboard();
     }
@@ -35,6 +36,7 @@ public class Leaderboard : MonoBehaviour
 
     void UpdateLeaderboardUI(List<PlayerLeaderboardEntry> leaderboard)
     {
+        Debug.Log("Update Leaderboard");
         for (int x = 0; x < leaderboardEntries.Length; x++)
         {
             leaderboardEntries[x].SetActive(x < leaderboard.Count);
